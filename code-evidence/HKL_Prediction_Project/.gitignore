@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# macOS resource files from the original export
+.DS_Store
+._*
+
+# Notebook execution clutter
+.ipynb_checkpoints/
+
+# Generated pipeline artefacts
+outputs/
+outputs*/
+PredictionOutputs/
+XGPredictionOutputs/
+XGCustomPredictionOutputs/
+RankingPredictionOutputs/
+*.joblib
+*.pkl
+*.xlsx
+
+# Keep source CSVs intentional. If the data becomes too large for GitHub,
+# move it to a release asset or external storage and document the download.

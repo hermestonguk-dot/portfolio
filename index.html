@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hermes Tong | Project Showcase</title>
+    <meta name="description" content="Interactive project showcase for Hermes Tong, MSc Machine Learning student and junior full-stack candidate.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#projects">Hermes Tong</a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="mailto:hermestonguk@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/hermestong">LinkedIn</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro-band" aria-labelledby="page-title">
+        <div class="intro-copy">
+          <p class="eyebrow">MSc Machine Learning | Full-stack and AI projects</p>
+          <h1 id="page-title">Projects I have built, tested, and can explain.</h1>
+          <p class="intro-text">A compact project dashboard for full-stack, AI, testing, and systems work. Each project is presented by stack, outcome, evidence, and the lesson I took from building it.</p>
+        </div>
+        <div class="signal-board" aria-label="Project evidence summary">
+          <div>
+            <span class="signal-number">6</span>
+            <span class="signal-label">Selected projects</span>
+          </div>
+          <div>
+            <span class="signal-number">84</span>
+            <span class="signal-label">RAG configs evaluated</span>
+          </div>
+          <div>
+            <span class="signal-number">91.8%</span>
+            <span class="signal-label">CNN validation accuracy</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="filter-band" aria-label="Project filters">
+        <div class="filter-row" id="filterRow"></div>
+      </section>
+
+      <section class="workspace" id="projects" aria-label="Project dashboard">
+        <div class="project-grid" id="projectGrid"></div>
+        <aside class="detail-panel" id="detailPanel" aria-live="polite"></aside>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Manchester, UK</span>
+      <span>Open to junior full-stack, AI product, and graduate software roles.</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

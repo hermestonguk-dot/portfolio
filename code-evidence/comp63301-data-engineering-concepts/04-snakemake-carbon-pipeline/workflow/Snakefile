@@ -1,0 +1,80 @@
+configfile: "config/2025v15.yaml"
+COUNTRIES = ["BRA", "CHN", "GBR", "USA", "CMR", "SWE"]
+SOURCES = ["total", "coal", "oil", "gas", "cement", "flaring", "other"]
+rule all:
+    input:
+        # YOUR CODE GOES HERE
+        "source/source_flat.csv",
+        "source/source_flat_metadata.json",
+        "results/validated.csv",
+        "results/only_countries.csv",
+        "results/countries.csv",
+        expand(
+            "results/by_country/{iso3}/{source}.csv",
+            iso3=COUNTRIES,
+            source=SOURCES,
+        )
+
+rule get_data:
+    # YOUR CODE GOES HERE
+    output:
+        "source/source_flat.csv",
+        "source/source_flat_metadata.json",
+    params:
+        urls=[
+            config["source_flat_csv_url"],
+            config["source_flat_metadata_url"],
+        ],
+    conda:
+        "envs/download.yaml"
+    script:
+        "scripts/download.py"
+
+
+rule validate_data:
+    # YOUR CODE GOES HERE
+    input:
+        "source/source_flat.csv",
+        "source/source_flat_metadata.json",
+    output:
+        "results/validated.csv",
+    log:
+        "logs/validation_report.json",
+    conda:
+        "envs/frictionless.yaml"
+    script:
+        "scripts/validate.py"
+
+rule clean_data_for_countries:
+    # YOUR CODE GOES HERE
+    input:
+        "results/validated.csv",
+    output:
+        "results/only_countries.csv",
+        "results/countries.csv",
+    log: "logs/cleaning.py.ipynb",
+    conda:
+        "envs/notebook.yaml"
+    notebook:
+        "notebooks/clean_data_for_countries.ipynb"
+
+rule by_country:
+    # YOUR CODE GOES HERE
+    input:
+        "results/only_countries.csv",
+    output:
+        total="results/by_country/{iso3}/total.csv",
+        coal="results/by_country/{iso3}/coal.csv",
+        oil="results/by_country/{iso3}/oil.csv",
+        gas="results/by_country/{iso3}/gas.csv",
+        cement="results/by_country/{iso3}/cement.csv",
+        flaring="results/by_country/{iso3}/flaring.csv",
+        other="results/by_country/{iso3}/other.csv",
+    log:
+        "logs/by_country_{iso3}.py.ipynb",
+    conda:
+        "envs/notebook.yaml"
+    notebook:
+        "notebooks/by_country.ipynb"
+
+

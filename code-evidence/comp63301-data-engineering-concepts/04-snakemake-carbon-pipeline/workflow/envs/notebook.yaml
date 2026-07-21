@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python =3.11
+  - pandas
+  - papermill =2.5
+  - jupyter
+  - notebook

@@ -1,0 +1,542 @@
+[
+  {
+    "query_id": "01",
+    "query": "What are the ingredients in Algerian Baghrir?",
+    "gold_answer": "The ingredients for Algerian Baghrir are: 2.5 cups semolina, 0.5 cup plain flour, 15 g instant yeast, 15 g white granulated sugar, 7 g table salt, 1 egg, 4 cups warm water, and 0.5 tsp baking powder.",
+    "source": "wikibooks:cookbookalgerian_baghrir"
+  },
+  {
+    "query_id": "02",
+    "query": "What are the main ingredients in Baba Ganoush?",
+    "gold_answer": "The main ingredients in Baba Ganoush are: 1 medium-large eggplant, 2 tablespoons raw tahini, juice of 1 lime or lemon, 1 clove garlic (crushed), 3 tablespoons olive oil, 0.5 tsp salt, and paprika or cayenne pepper as garnish.",
+    "source": "wikibooks:cookbookbaba_ganoush"
+  },
+  {
+    "query_id": "03",
+    "query": "What are the ingredients needed to make Tzatziki?",
+    "gold_answer": "The ingredients for Tzatziki are: 1.5 cups yogurt, 4 cloves garlic (minced), 1 tablespoon dill, 2 tablespoons olive oil, 4 tablespoons lemon juice (optional), 2 small cucumbers (diced), salt, and white pepper to taste.",
+    "source": "wikibooks:cookbooktzatziki"
+  },
+  {
+    "query_id": "04",
+    "query": "What are the ingredients for Shakshuka I?",
+    "gold_answer": "The ingredients for Shakshuka I are: 6 tbsp olive oil, 1 tbsp sweet paprika, 6 cloves garlic (minced), 1 large sweet red pepper (diced), 1 chile pepper (chopped), 6 ripe tomatoes (diced), ground black pepper, salt to taste, and 6 eggs.",
+    "source": "wikibooks:cookbookshakshuka_i"
+  },
+  {
+    "query_id": "05",
+    "query": "What are the ingredients for Gazpacho?",
+    "gold_answer": "The soup ingredients for Gazpacho include: 2-3 day-old white bread (optional), 1 lb tomatoes, 0.5 lb green bell peppers, 0.5 cucumber, 1 clove garlic, 0.5 mild Spanish onion, 1 tbsp wine vinegar, 2 tbsp olive oil, optional chile pepper, iced water, sea salt, and black pepper. The garnish includes diced tomato, green bell pepper, cucumber, and bread.",
+    "source": "wikibooks:cookbookgazpacho"
+  },
+  {
+    "query_id": "06",
+    "query": "What are the ingredients in the Sangria recipe?",
+    "gold_answer": "The ingredients for Sangria are: 1 L red wine, 2 peaches, 1 apple, 1 banana, 1 orange, 3 lemons, 125 ml brandy, 4 tbsp sugar, and 1 cinnamon stick (optional).",
+    "source": "wikibooks:cookbooksangria"
+  },
+  {
+    "query_id": "07",
+    "query": "What are the ingredients for Spanish Potato Omelette (Tortilla Espanola)?",
+    "gold_answer": "The ingredients for Spanish Potato Omelette are: 8 eggs, 1 kg potatoes, 1 onion, 500 ml olive oil, and 1 pinch of salt.",
+    "source": "wikibooks:cookbookspanish_potato_omelette"
+  },
+  {
+    "query_id": "08",
+    "query": "What are the ingredients for Koshari?",
+    "gold_answer": "The ingredients for Koshari are: 1 cup uncooked rice, 1 cup dried lentils, 1 cup small macaroni or short pasta, 1 can chopped tomatoes, 3 tablespoons tomato paste, 2 tablespoons vegetable oil, 1 large onion (thinly sliced), 4 cloves garlic (minced), 1 tsp ground cumin, 1 tsp ground cinnamon, salt, black pepper, and optional chile powder.",
+    "source": "wikibooks:cookbookkoshari"
+  },
+  {
+    "query_id": "09",
+    "query": "What are the ingredients for making Pita bread?",
+    "gold_answer": "The ingredients for Pita bread are: 250 ml warm water, 1 tbsp instant yeast, 1 tsp salt, 2 tbsp vegetable oil, and 500 ml (2 cups) durum wheat flour.",
+    "source": "wikibooks:cookbookpita"
+  },
+  {
+    "query_id": "10",
+    "query": "What are the ingredients for Galaktoboureko (Greek Semolina Custard Pastry)?",
+    "gold_answer": "Pastry ingredients: 150 g sugar, 6 eggs, 150 g semolina, 1 liter milk, 2 vanilla beans, half lemon (juiced), 1 pinch of salt, 450 g phyllo, and melted butter. Syrup: 125 ml water, 150 g sugar, and 2 Tbsp lemon juice.",
+    "source": "wikibooks:cookbookgalaktoboureko"
+  },
+  {
+    "query_id": "11",
+    "query": "What are the ingredients for Kesra (Algerian Semolina Flatbread)?",
+    "gold_answer": "The ingredients for Kesra are: 450 g fine semolina, 1 tbsp salt, 240 g warm water, and 30 g sunflower oil.",
+    "source": "wikibooks:cookbookkesra"
+  },
+  {
+    "query_id": "12",
+    "query": "What are the ingredients for Lamb Shawarma?",
+    "gold_answer": "The ingredients for Lamb Shawarma are: 1.5 kg leg of lamb or other tender cut, 1 tsp nutmeg, 1 tsp cinnamon, 1 tsp cardamom, 3 cloves of garlic, 1 tsp black pepper, 1 tsp cayenne pepper, 0.5 cup lemon, 0.25 cup vinegar, and 2 onions (sliced).",
+    "source": "wikibooks:cookbooklamb_shawarma"
+  },
+  {
+    "query_id": "13",
+    "query": "What are the ingredients for Moroccan Couscous?",
+    "gold_answer": "The ingredients for Moroccan Couscous are: 1 box (10 oz) quick-cooking couscous, 2.75 cups chicken broth, 0.25 cup freshly-squeezed lemon juice, 2 tbsp hot pepper paste, 1.5 tsp salt, 1.5 tsp freshly-ground coriander, 0.25 tsp freshly-ground cumin, olive oil, 4 preserved lemon wedges, and 2 bay leaves.",
+    "source": "wikibooks:cookbookmoroccan_couscous"
+  },
+  {
+    "query_id": "14",
+    "query": "What is the recipe for making Tzatziki?",
+    "gold_answer": "To make Tzatziki: Drain yogurt in a sieve or cheesecloth for about 3 hours. Drain and salt the diced cucumber to remove moisture. Combine yogurt, garlic, olive oil, and lemon juice in a bowl; cover and refrigerate for 1 hour or more. After refrigerating, add dill and cucumber and mix with a whisk until smooth. Add pepper and salt to taste.",
+    "source": "wikibooks:cookbooktzatziki"
+  },
+  {
+    "query_id": "15",
+    "query": "What is the recipe for Algerian Baghrir?",
+    "gold_answer": "To make Baghrir: Combine semolina, flour, yeast, sugar, and salt in a bowl. Mix in water and egg until smooth batter forms. Rest batter for 15-20 minutes until doubled. Thin with a little water if necessary, then whisk in baking powder. Heat and lightly grease a skillet. Cook small pancakes on one side only until the top is covered in holes and fully cooked. Do not flip. Serve with butter.",
+    "source": "wikibooks:cookbookalgerian_baghrir"
+  },
+  {
+    "query_id": "16",
+    "query": "What is the recipe for making Shakshuka I?",
+    "gold_answer": "To make Shakshuka I: Heat oil on high heat for about 0.5 minute; add paprika and blend well. Add garlic and peppers; turn to low flame and cook for about 10 minutes until peppers slightly soften. Add tomatoes, bring to boil, season with salt and pepper. Make 6 dents in the mixture, put an egg yolk in each, and spread egg whites around. Cook on low until egg whites coagulate. Serve with black bread and fresh parsley.",
+    "source": "wikibooks:cookbookshakshuka_i"
+  },
+  {
+    "query_id": "17",
+    "query": "What is the recipe for Pita bread?",
+    "gold_answer": "To make Pita: Dissolve yeast in warm water. Add salt, oil, and flour; mix and knead into a dough. Let the dough rise to twice its size. Divide into 8 pieces and shape into balls. Roll into flat, round pita breads about 15 cm in diameter. Let rise in a warm place covered with a cloth for about 30 minutes. Bake at 225 degrees C for about 12 minutes.",
+    "source": "wikibooks:cookbookpita"
+  },
+  {
+    "query_id": "18",
+    "query": "How is Koshari described as a dish?",
+    "gold_answer": "Koshari is described as a beloved Egyptian street food. It is a hearty and satisfying vegetarian dish made with a mixture of rice, lentils, pasta, and a flavorful tomato sauce, topped with crispy fried onions. It is considered a true culinary gem of Egypt, enjoyed by locals and visitors alike.",
+    "source": "wikibooks:cookbookkoshari"
+  },
+  {
+    "query_id": "19",
+    "query": "What is Focaccia?",
+    "gold_answer": "Focaccia is a flat, leavened bread native to Italy.",
+    "source": "wikibooks:cookbookfocaccia_i"
+  },
+  {
+    "query_id": "20",
+    "query": "What is Pita bread and what dishes use it?",
+    "gold_answer": "Pita is a yeasted wheat flatbread originating from North African, Middle Eastern, and Mediterranean cuisines. It is usually eaten with sauces, dips, and fillings. Dishes that use pita include kebab, gyros, and shawarma.",
+    "source": "wikibooks:cookbookpita"
+  },
+  {
+    "query_id": "21",
+    "query": "What are the main ingredients of Hummus according to Wikipedia?",
+    "gold_answer": "According to Wikipedia, hummus is made from cooked, mashed chickpeas blended with tahini, lemon juice, and garlic. The standard garnish includes olive oil, a few whole chickpeas, parsley, and paprika.",
+    "source": "wikipedia:hummus"
+  },
+  {
+    "query_id": "22",
+    "query": "What is Baghrir and where is it popular?",
+    "gold_answer": "Baghrir is a variety of small, spongy pancake or flatbread popular in North Africa, including Algeria. They are made of semolina and/or all-purpose flour, and are characteristically laced with tiny holes that soak up whatever sauce they are served with.",
+    "source": "wikibooks:cookbookalgerian_baghrir"
+  },
+  {
+    "query_id": "23",
+    "query": "What is Spanakopita?",
+    "gold_answer": "Spanakopita is a Greek spinach pie. It is made with phyllo pastry dough wrapped around a spinach, feta cheese, onion, egg, and herb filling.",
+    "source": "wikibooks:cookbookspanakopita"
+  },
+  {
+    "query_id": "24",
+    "query": "What are the ingredients for Spanakopita?",
+    "gold_answer": "The ingredients for Spanakopita include: 900 g fresh spinach (or 580 g frozen), 1 large onion, 0.25 cup extra-virgin olive oil, 1 cup chopped scallions, 0.5 cup minced fresh parsley, 1 tbsp minced fresh dill, 0.25 tsp freshly ground nutmeg, 1 tbsp lemon juice, 0.75 cup crumbled feta cheese, 0.75 cup small curd cottage cheese, 0.25 cup freshly grated parmesan cheese, 4 eggs (beaten), 12-20 sheets phyllo pastry, and clarified butter.",
+    "source": "wikibooks:cookbookspanakopita"
+  },
+  {
+    "query_id": "25",
+    "query": "What is Baba Ganoush and how is it typically eaten?",
+    "gold_answer": "Baba ganoush is a common Middle Eastern and Mediterranean dip with a creamy, somewhat smoky flavor. It is usually eaten with pita bread, although naan or a crispy flatbread also work well.",
+    "source": "wikibooks:cookbookbaba_ganoush"
+  },
+  {
+    "query_id": "26",
+    "query": "What are the three core elements of Mediterranean cuisine according to many writers?",
+    "gold_answer": "Many writers define the three core elements of Mediterranean cuisine as the olive, wheat, and the grape, yielding olive oil, bread and pasta, and wine.",
+    "source": "wikipedia:mediterranean_cuisine"
+  },
+  {
+    "query_id": "27",
+    "query": "What is harissa and where does it come from?",
+    "gold_answer": "Harissa is a hot chili pepper paste native to Tunisia. The main ingredients are roasted red peppers, Baklouti peppers, and spices and herbs such as garlic paste, caraway seeds, coriander seeds, cumin, and olive oil.",
+    "source": "wikipedia:harissa"
+  },
+  {
+    "query_id": "28",
+    "query": "What is couscous?",
+    "gold_answer": "Couscous is a traditional North African dish of small steamed granules of rolled semolina that is often served with a stew spooned on top. It is a staple food throughout the Maghrebi cuisines of Algeria, Tunisia, Mauritania, Morocco, and Libya.",
+    "source": "wikipedia:couscous"
+  },
+  {
+    "query_id": "29",
+    "query": "What does Doner Kebab literally mean and where was it first developed?",
+    "gold_answer": "Doner kebab literally means 'rotating grilled meat' in Turkish. Doner kebabs were first developed in Bursa, Turkey. Authentic Turkish doner is made with bread, salad, and meat from lamb.",
+    "source": "wikibooks:cookbookdoner_kebab"
+  },
+  {
+    "query_id": "30",
+    "query": "What are the ingredients for Greek Moussaka meat sauce?",
+    "gold_answer": "The ingredients for Greek Moussaka meat sauce are: 1 large onion (chopped), 6 cloves of garlic (chopped), 3 tablespoons olive oil, 1 kg minced beef or lamb, 1 large tin diced tomatoes, 1 cup red wine, 2 tablespoons fresh parsley, optional fresh Greek basil, 2 bay leaves, 1 tsp sugar, 1 cinnamon stick, black pepper, and 2 tablespoons tomato paste.",
+    "source": "wikibooks:cookbookgreek_moussaka"
+  },
+  {
+    "query_id": "31",
+    "query": "What is Kesra also known as?",
+    "gold_answer": "Kesra is also called aghroum and ftir. It is an Algerian bread made of fine grains of semolina.",
+    "source": "wikibooks:cookbookkesra"
+  },
+  {
+    "query_id": "32",
+    "query": "What is Galaktoboureko?",
+    "gold_answer": "Galaktoboureko is a traditional Greek dessert made with phyllo (filo) dough filled with a custard of semolina flavored with citron, served with a sugar syrup.",
+    "source": "wikibooks:cookbookgalaktoboureko"
+  },
+  {
+    "query_id": "33",
+    "query": "What is Fattoush and what two unusual ingredients does it use?",
+    "gold_answer": "Fattoush is a Lebanese salad good for hot weather. It uses two unusual ingredients: sumac and purslane. Ground sumac consists of red sumac berries used in Lebanese cooking, and purslane is a succulent with a lemony flavor used as a salad green.",
+    "source": "wikibooks:cookbookfattoush"
+  },
+  {
+    "query_id": "34",
+    "query": "What is Tajine bil Samak?",
+    "gold_answer": "Tajine bil Samak is a Libyan fish dish cooked in a tajine (a traditional clay pot with a conical lid). It features tender fish fillets cooked in a tomato-based sauce infused with aromatic spices and herbs. It is popular in Libyan cuisine and often served with rice or bread.",
+    "source": "wikibooks:cookbooktajine_bil_samak"
+  },
+  {
+    "query_id": "35",
+    "query": "What are the ingredients for Tajine bil Samak (Libyan Fish Tajine)?",
+    "gold_answer": "The ingredients for Tajine bil Samak are: 2 tablespoons olive oil, 1 onion (finely chopped), 2 cloves garlic (minced), 4-6 fish fillets such as cod or tilapia, 2 tomatoes (diced), 1 tablespoon tomato paste, 1 tsp ground cumin, 1 tsp ground paprika, 0.5 tsp ground cayenne pepper, 0.5 tsp ground coriander, 0.5 tsp ground caraway seeds, salt, pepper, 1 cup water, and fresh parsley or cilantro for garnish.",
+    "source": "wikibooks:cookbooktajine_bil_samak"
+  },
+  {
+    "query_id": "36",
+    "query": "What is Bouillabaisse and where does it originate?",
+    "gold_answer": "Bouillabaisse is a traditional Provencal fish soup originating in the port city of Marseille. It was originally made by Marseille fishermen using bony rockfish they were unable to sell to restaurants or markets.",
+    "source": "wikipedia:bouillabaisse"
+  },
+  {
+    "query_id": "37",
+    "query": "What is paella and where does it come from?",
+    "gold_answer": "Paella is a rice dish originally from the Valencian Community in Spain. It is regarded as one of the community's identifying symbols and one of the best-known dishes in Spanish cuisine. The dish takes its name from the wide, shallow traditional pan used to cook it.",
+    "source": "wikipedia:paella"
+  },
+  {
+    "query_id": "38",
+    "query": "What is a tagine?",
+    "gold_answer": "A tagine or tajine is a Maghrebi dish, and also the earthenware pot in which it is cooked. It is a slow-cooked spiced meat stew. The pot has a shallow bowl on the bottom that holds the stew and a conical lid that fits snugly on top.",
+    "source": "wikipedia:tagine"
+  },
+  {
+    "query_id": "39",
+    "query": "What are the three versions of paella according to Wikipedia?",
+    "gold_answer": "According to Wikipedia, there are three versions of paella: paella valenciana (which includes rabbit, chicken, duck, and snails), paella mixta (which includes livestock), and paella de marisco (which includes seafood). Valencians say that only paella valenciana is the true paella.",
+    "source": "wikipedia:paella"
+  },
+  {
+    "query_id": "40",
+    "query": "What is Hummus also known as by its full Arabic name?",
+    "gold_answer": "The full Arabic name of hummus is 'Hummus Bi Tahini', meaning 'chickpeas with tahini'. The word hummus itself means 'chickpeas' in Arabic.",
+    "source": "wikipedia:hummus"
+  },
+  {
+    "query_id": "41",
+    "query": "What is the origin story of the word 'bouillabaisse' and what mythological story is associated with it?",
+    "gold_answer": "The name bouillabaisse stems from a combination of the Provencal words 'bolhir' (to boil) and 'abaissar' (to simmer), referring to the process of first boiling the broth then adding each fish one by one, returning the pot to a simmer between each addition. A mythological story involves Venus (goddess of love) feeding a soup resembling bouillabaisse to Vulcan (God of fire), sending him to sleep so she could sneak away with Mars, the God of war.",
+    "source": "around80_southern_france_monaco_02"
+  },
+  {
+    "query_id": "42",
+    "query": "What were the origins of French haute cuisine, and who developed it?",
+    "gold_answer": "Haute cuisine (meaning 'high cuisine') was developed by Auguste Escoffier. It was a style of cooking developed to feed the upper class that allowed the best chefs of the world to showcase their talents. The 20th century marked its explosion into the international scene. Early French cuisine was heavily influenced by Italy, with the 17th century often earmarked as the point at which French cuisine diverted significantly to form its own unique style.",
+    "source": "around80_southern_france_monaco_01"
+  },
+  {
+    "query_id": "43",
+    "query": "According to the Around the World in 80 Cuisines blog, what is the legend behind the origin of the meze concept?",
+    "gold_answer": "According to the blog, legend has it that the meze concept stems from servants of early Persian rulers who would take small plates of all food on offer to the ruler and taste each to ensure none were poisoned. This concept soon became fashionable with the upper classes of surrounding regions as a way to emulate the Sultan's dining habits.",
+    "source": "around80_turkey_cyprus_02"
+  },
+  {
+    "query_id": "44",
+    "query": "What does 'Imam bayildi' literally mean, and what are the two competing stories behind its name?",
+    "gold_answer": "'Imam bayildi' literally means 'The Imam fainted.' The two stories are: (1) the Imam was presented the dish by his wife and swooned in rapture of sensorial pleasure at its taste; and (2) the loss of consciousness was actually in response to hearing the exorbitant price of the large volumes of precious olive oil required to make the dish.",
+    "source": "around80_turkey_cyprus_03"
+  },
+  {
+    "query_id": "45",
+    "query": "What fish must be present for bouillabaisse to be considered authentic according to the Charter of Marseillaise Bouillabaisse?",
+    "gold_answer": "The Charte de la Bouillabaisse Marseillaise, signed in 1980 by 11 restaurants in France, states that bouillabaisse must be prepared with at least four of the following fish: monkfish, John Dory, galinette (or gurnard), mullet, rascasse, conger eel, and chapon (red scorpion fish). Most versions must contain at least rascasse to be considered authentic.",
+    "source": "wikibooks:cookbookbouillabaisse"
+  },
+  {
+    "query_id": "46",
+    "query": "What is the etymology of the word couscous and what does its geographical dispersion suggest?",
+    "gold_answer": "The word 'couscous' was first noted in early 17th century French, from Arabic 'kuskus', from 'kaskasa' meaning 'to pound', and is probably of Berber origin. The term 'seksu' is attested in various Berber dialects. This widespread geographical dispersion of the term strongly suggests its local Berber origin.",
+    "source": "wikipedia:couscous"
+  },
+  {
+    "query_id": "47",
+    "query": "What is the historical origin of harissa and how did chili peppers arrive in Tunisia?",
+    "gold_answer": "The origin of harissa goes back to the importation of chili peppers into Tunisian cuisine by the Columbian exchange, presumably during the Spanish occupation of Hafsid Tunisia between 1535 and 1574. Peppers were first grown in the Cape Bon Peninsula, the birthplace of the condiment, with Nabeul famous as the primary center for its production. Tunisia is the biggest exporter of prepared harissa and UNESCO lists it as part of Tunisia's Intangible Cultural Heritage.",
+    "source": "wikipedia:harissa"
+  },
+  {
+    "query_id": "48",
+    "query": "What role did the Fertile Crescent play in early human agriculture according to the Around the World in 80 Cuisines blog?",
+    "gold_answer": "According to the blog, the Fertile Crescent was home to eight Neolithic founder crops: emmer wheat, einkorn, barley, flax, chickpea, pea, lentil, and bitter vetch. Cows, goats, sheep, and pigs were also domesticated there. The region's geographical role as a bridge between Africa and Eurasia allowed it to accumulate great biodiversity, contributing to human evolution and migration throughout the world.",
+    "source": "around80_fertile_crescent_01"
+  },
+  {
+    "query_id": "49",
+    "query": "What does 'ful medames' literally mean and what is the dish?",
+    "gold_answer": "Ful medames literally derives from words meaning 'buried beans,' perhaps referring to the process of immersing the beans in water and/or a large vessel to cook them. To prepare the dish, a variety of beans (most famously fava beans) are boiled in salt and water until soft, then a proportion is mashed to create a thick creamy consistency.",
+    "source": "around80_north_africa_04"
+  },
+  {
+    "query_id": "50",
+    "query": "What is the earliest historical mention of hummus and where was it recorded?",
+    "gold_answer": "The earliest mention of hummus was in a 13th century cookbook attributed to the historian Ibn al-Adim from Aleppo in present-day Syria.",
+    "source": "wikipedia:hummus"
+  },
+  {
+    "query_id": "51",
+    "query": "How does fregola differ from couscous, and what are the disputed origins of fregola?",
+    "gold_answer": "Fregola is a type of pasta from Sardinia formed by rolling semolina dough into small balls that are then toasted before being boiled, while couscous is not toasted before cooking. There is debate over whether fregola was invented independently by the Sardinians, or influenced by imported couscous from the early Punics or Carthaginians.",
+    "source": "around80_southern_italy_02"
+  },
+  {
+    "query_id": "52",
+    "query": "According to Around the World in 80 Cuisines, what is the design purpose of the conical lid of a tagine pot?",
+    "gold_answer": "The conical lid is primarily designed to conserve the steam produced by the food inside, which is particularly important in North Africa where water can be a scarce resource. The design also helps to evenly and slowly cook food, while lightly caramelising the ingredients.",
+    "source": "around80_north_africa_02"
+  },
+  {
+    "query_id": "53",
+    "query": "What is the mythological story connected to the naming of Athens and olive oil in Greek culture?",
+    "gold_answer": "According to a story in ancient Greek mythology, the olive tree was created by Athena during a competition among the gods to become the patron and namesake of a new city. Her gift was judged by the citizens to be the greatest gift to mankind, and the city was named Athens thereafter.",
+    "source": "around80_greece_01"
+  },
+  {
+    "query_id": "54",
+    "query": "What archaeological evidence supports the ancient origins of souvlaki?",
+    "gold_answer": "Archaeological digs have unearthed grills with recesses for skewers from before the 17th century BC, and skewered meat was mentioned by Homer in the Iliad. This confirms that souvlaki, which describes pieces of meat marinated and threaded onto skewers then grilled, is among the oldest known preparation methods.",
+    "source": "around80_greece_02"
+  },
+  {
+    "query_id": "55",
+    "query": "What controversy arose over Jamie Oliver's paella and how did Spain react?",
+    "gold_answer": "Social media went into overdrive over Jamie Oliver's inclusion of chorizo in a paella mixta, considered akin to a cardinal sin. The anger over the international incident united the oft-fractured Spain in ways that years of diplomacy could not. Other chefs like Gordon Ramsay have also faced backlash for tweaking paellas with non-traditional ingredients.",
+    "source": "around80_spain_04"
+  },
+  {
+    "query_id": "56",
+    "query": "What are the competing origin stories of tapas according to Around the World in 80 Cuisines?",
+    "gold_answer": "The word 'tapa' originally meant 'cover' or 'lid.' One story says a lid was placed over bar patrons' drinks to keep off flies, and over time it became customary to serve a snack on these covers. Another story credits King Alfonso XIII, whose waiter brought his wine covered with a slice of ham to protect it from beach sand, and the king enjoyed it so much he asked for another.",
+    "source": "around80_spain_02"
+  },
+  {
+    "query_id": "57",
+    "query": "What is the historical background of tagine according to Wikipedia, including its earliest known references?",
+    "gold_answer": "According to some sources, the history of tagine dates back to the time of Harun al-Rashid, the fifth Abbasid Caliph. The concept of cooking in a tagine appears in the One Thousand and One Nights, an Arabic story collection from the 9th century. According to historian Gil Marks, the unique two-piece clay cooking vessel originates from the Anti-Atlas Mountains in Morocco.",
+    "source": "wikipedia:tagine"
+  },
+  {
+    "query_id": "58",
+    "query": "How did Turkish cuisine historically influence the cuisines of surrounding regions during the Ottoman period?",
+    "gold_answer": "During the Ottoman period, Turkish cuisine played a central role in influencing the cuisines of the former Ottoman territories, particularly in the Balkans, the Levant, Mesopotamia, North Africa, the South Caucasus, and Crimea, resulting in a shared culinary heritage.",
+    "source": "wikipedia:turkish_cuisine"
+  },
+  {
+    "query_id": "59",
+    "query": "How did Moroccan cuisine develop and what are its oldest traceable roots?",
+    "gold_answer": "Moroccan cuisine developed through interactions and exchanges with many cultures over the centuries, becoming a mix of Arab, Berber, Andalusi, Mediterranean, and African cuisines. The oldest traces go back to the 7th century BC, when coastal Phoenician colonies such as Sala and Kerne became centers of olive oil and wine production.",
+    "source": "wikipedia:moroccan_cuisine"
+  },
+  {
+    "query_id": "60",
+    "query": "How is Paella Valenciana historically described in terms of its origins and unusual historical ingredient?",
+    "gold_answer": "Paella Valenciana originated in its modern form in the early 1800s in Spain's Valencian region near Lake Albufera. Prior to the 19th century, the ingredients varied greatly, with one of the most unusual being marsh rat. Valencians consider only Valencian paella and seafood paella as true paellas, viewing all other variations as impostors.",
+    "source": "wikibooks:cookbookpaella_valenciana"
+  },
+  {
+    "query_id": "61",
+    "query": "What is the story behind ribollita and what does its name literally mean?",
+    "gold_answer": "Ribollita is a hearty Tuscan soup made from vegetables, beans, and bread. Its name literally means 'reboiled.' According to legend, the name comes from working class servers at noble banquets who would sneak away pieces of discarded bread soaked in juices from the feast, which they would then reboil. Tuscans are known within Italy as 'mangiafagioli' (bean-eaters).",
+    "source": "around80_central_italy_03"
+  },
+  {
+    "query_id": "62",
+    "query": "What is the disputed history of shakshouka's origins according to Around the World in 80 Cuisines?",
+    "gold_answer": "According to the blog, some say shakshouka was brought to the Fertile Crescent by Tunisian Jews, where it became famously associated with the region. Others say it was invented in Yemen or the Ottoman Empire, so the mystery may be lost to time. The name 'shakshouka' means 'mixture.'",
+    "source": "around80_fertile_crescent_04"
+  },
+  {
+    "query_id": "63",
+    "query": "What is the connection between musakhan, olive oil, and Palestinian culture?",
+    "gold_answer": "Musakhan is a Palestinian dish, often considered their national dish, traditionally prepared to celebrate the season in which olive oil is produced. It is made with pieces of chicken baked with olive oil, onions, and pine nuts, flavoured with allspice, saffron, and considerable amounts of sumac, all served on top of freshly baked taboon bread.",
+    "source": "around80_fertile_crescent_03"
+  },
+  {
+    "query_id": "64",
+    "query": "What are the regional variations in Turkish cuisine according to Wikipedia?",
+    "gold_answer": "Turkish cuisine shows significant variation across the country. Istanbul, Bursa, and Anatolia inherit Ottoman court cuisine including moderate use of spices and preference for rice over bulgur. The Black Sea Region uses fish extensively, especially the Black Sea anchovy (hamsi), and includes maize dishes. The southeast (Urfa, Gaziantep, Adana) is famous for its variety of kebabs, mezes, and dough-based desserts such as baklava.",
+    "source": "wikipedia:turkish_cuisine"
+  },
+  {
+    "query_id": "65",
+    "query": "How does Greek cuisine continue ancient traditions while incorporating modern influences?",
+    "gold_answer": "Greek cuisine continues traditions from Ancient Greek and Byzantine cuisine while incorporating Turkish, Middle Eastern, Balkan, and Italian influences. Ancient Greek cuisine was characterized by frugality and the Mediterranean triad of wheat, olive oil, and wine, with meat rarely eaten and fish more common. Greek cuisine's influence spread to ancient Rome and then throughout Europe and beyond.",
+    "source": "wikipedia:greek_cuisine"
+  },
+  {
+    "query_id": "66",
+    "query": "What makes the cuisines of northern and southern Italy distinct from each other according to Around the World in 80 Cuisines?",
+    "gold_answer": "Southern Italian cuisine is characterised by liberal use of tomatoes, olives, garlic, eggplant, chilli, capers, mozzarella, and olive oil, with strong tomato-based dishes. Where the north of Italy has a lot more cream and butter in their dishes, the south is defined by tomato-based dishes flavoured with strong ingredients. In central Tuscany, hearty bean soups are favoured where other regions use pasta.",
+    "source": "around80_southern_italy_01"
+  },
+  {
+    "query_id": "67",
+    "query": "What is bastilla and why is it described as a dish of balance?",
+    "gold_answer": "Bastilla is a famous dish from Morocco, originally made from pigeon but more recently adapted to chicken. According to the blog, it is all about balance between many elements: sweet versus salty, acidic versus bitter, and crunchy versus moist. The blogger described it as one of the rare recipe ideas that 'coursed through my veins like a disease' until tried.",
+    "source": "around80_north_africa_05"
+  },
+  {
+    "query_id": "68",
+    "query": "Why is it surprising that coastal Portugal has such a deep affection for bacalhau (dried salted cod)?",
+    "gold_answer": "It is surprising because Portugal is a renowned lover of fresh fish, with fish consumption per capita the highest in the European Union. Bacalhau is dried and salted cod, a preserved fish primarily associated with landlocked regions. The beginnings of bacalhau date back to around 500 years ago, likely arising due to the low oil content of cod flesh making it amenable to salting and drying, as well as its utility for long sea voyages.",
+    "source": "around80_portugal_02"
+  },
+  {
+    "query_id": "69",
+    "query": "How is Cassoulet described and what is it named after?",
+    "gold_answer": "Cassoulet is a bean stew from Occitan in southern France, named after the earthenware bowl it is served in called a 'cassole.' It is made by baking a combination of onion, garlic, tomatoes, bacon, garlic sausage, white beans, and bouquet garni, sometimes along with other meats, covered with a crust of fresh bread crumbs until golden brown and caramelised.",
+    "source": "around80_southern_france_monaco_04"
+  },
+  {
+    "query_id": "70",
+    "query": "What is the science behind pita bread's pocket formation according to Around the World in 80 Cuisines?",
+    "gold_answer": "Pita bread forms a hollow pocket due to baking at incredibly high temperatures, which makes the dough expand quickly, puffing up into a steam-filled sphere. Once cooled, the bread returns to looking flat, but the middle remains hollow and separate. The pita dough is made with wheat flour and a little bit of yeast, unlike many other unleavened flatbreads.",
+    "source": "around80_fertile_crescent_05"
+  },
+  {
+    "query_id": "71",
+    "query": "What is bouquet garni as described in Around the World in 80 Cuisines and why is it used?",
+    "gold_answer": "Bouquet garni is a bundle of assorted herbs tied together with string, such as thyme, rosemary, sage, and bay leaves. It allows herb flavours and small leaves to be infused into a dish without leaving woody stalks in the final dish. It can also be placed in a little muslin pouch if loose leaves are not wanted.",
+    "source": "around80_southern_france_monaco_04"
+  },
+  {
+    "query_id": "72",
+    "query": "How do the Mediterranean region's historical connections explain its shared culinary elements across diverse cuisines?",
+    "gold_answer": "According to Wikipedia, the historical connections of the region and the impact of the Mediterranean Sea on climate and economy mean that these cuisines share dishes beyond the core trio of oil, bread, and wine. The region spans cultures including the Maghrebi, Egyptian, Levantine, Ottoman (Turkish), Greek, Italian, French (Provencal), and Spanish, and the shared history of the region explains the common culinary heritage.",
+    "source": "wikipedia:mediterranean_cuisine"
+  },
+  {
+    "query_id": "73",
+    "query": "What is the etymology and origin of the word 'paella' and how does its modern history trace back?",
+    "gold_answer": "The word 'paella' refers to the wide, shallow traditional pan used to cook the dish, with paella being the word for a frying pan in both Catalan and Valencian. The word traces its roots further back to Old French and the Latin word 'patella.' In its modern form, paella is traced back to the mid-19th century in the rural area around the Albufera de Valencia lagoon.",
+    "source": "wikipedia:paella"
+  },
+  {
+    "query_id": "74",
+    "query": "How did gnocchi originate historically and what does its name mean?",
+    "gold_answer": "Gnocchi are little balls of boiled dough that existed in ancient Roman times, likely from Middle Eastern origin during the expansion of the empire, originally formed with eggs and semolina. After the introduction of the potato in the 1500s, gnocchi from northern Italy are now most commonly made with mashed potato, egg, plain flour, and salt. The name is thought to come from either 'nocchio' (a knot in wood) or 'nocca' (knuckle).",
+    "source": "around80_central_italy_01"
+  },
+  {
+    "query_id": "75",
+    "query": "What cultural and historical ties explain the diverse influences in North African cuisine according to Around the World in 80 Cuisines?",
+    "gold_answer": "According to the blog, North Africa (Algeria, Egypt, Libya, Morocco, Sudan, and Tunisia) has influences from the rest of Africa and from France, Italy, and Spain to the north. Parts of North Africa were in the Roman Empire as early as 200 BC, subjecting the region to interregional trade and immigration. This makes cultural influences hard to pick apart.",
+    "source": "around80_north_africa_01"
+  },
+  {
+    "query_id": "76",
+    "query": "What is chermoula and what is it traditionally eaten with?",
+    "gold_answer": "Chermoula is a wet North African marinade made of finely processed coriander, oil, cumin, onion, preserved lemons, chilli, salt, and pepper. According to Around the World in 80 Cuisines, the blogger describes it as turning out 'sort of soupy and green', comparing it aesthetically to Argentinian chimichurri but with a different taste. Chermoula is traditionally eaten with seafood.",
+    "source": "around80_north_africa_03"
+  },
+  {
+    "query_id": "77",
+    "query": "What is bucatini and what are the rules about traditional carbonara according to Around the World in 80 Cuisines?",
+    "gold_answer": "Bucatini is a type of pasta common in Lazio (the region containing Rome), similar to spaghetti except it has a hole running through the middle, with 'bucato' meaning 'pierced' in Italian. According to the blog, cream or garlic must never be included in a traditional carbonara — no exceptions.",
+    "source": "around80_central_italy_02"
+  },
+  {
+    "query_id": "78",
+    "query": "What is orichiette and what does its name literally mean?",
+    "gold_answer": "Orichiette is a shape of pasta typical from the southern Italian region of Apulia, literally meaning 'small ear.' The characteristic shape comes from pressing little sheets of pasta against the tip of the thumb. It is arguably the most famous pasta of the Apulia region, and 'alle cime di rapa' (with broccoli rabe tips) is among its most famous preparations.",
+    "source": "around80_southern_italy_05"
+  },
+  {
+    "query_id": "79",
+    "query": "What is pide and how does it compare to pizza according to Around the World in 80 Cuisines?",
+    "gold_answer": "Turkish pide (pronounced 'pee-day') is often called 'Turkish pizza.' It shares similar dough (flour, water, salt, and yeast) with pizza but lacks a tomato base and circular shape, instead commonly forming a boat shape. Spiced lamb is one of the most traditional and common toppings.",
+    "source": "around80_turkey_cyprus_04"
+  },
+  {
+    "query_id": "80",
+    "query": "According to the Wikibooks recipe for Paella Valenciana, what specific equipment is needed?",
+    "gold_answer": "The recipe specifically requires: a 38-centimeter (15-inch) paellera, a 7.6-liter (2-gallon) pot, a rice skimmer, a sharp chopping knife, a large serving spoon, a clean white towel large enough to cover the paellera, and a wide heating source such as a stove, gas burner designed for paelleras, charcoal barbecue, or a low forged steel tripod to support the paellera over a wood or charcoal fire.",
+    "source": "wikibooks:cookbookpaella_valenciana"
+  },
+  {
+    "query_id": "81",
+    "query": "What is sumac and how is it described in Around the World in 80 Cuisines?",
+    "gold_answer": "Sumac is a spice derived from berries of the Rhus shrub, which are dried and ground into a deep purple-red powder. It imparts a deep purple colour and a unique flavour that is sour and slightly fruity. It is used in the Palestinian dish musakhan and is also a characteristic ingredient in Lebanese cooking such as fattoush salad.",
+    "source": "around80_fertile_crescent_03"
+  },
+  {
+    "query_id": "82",
+    "query": "What is fabada asturiana and how is it related to French cassoulet?",
+    "gold_answer": "Fabada asturiana is a rich stew from the Principality of Asturias made with large white beans, chorizo, morcilla (blood pudding), pork/ham/bacon, flavoured with onion, garlic, saffron, and smoked paprika. The dish is often compared to the French cassoulet. It has spread to become a favourite all over Spain, especially during winter, and is even sold ready-made in cans.",
+    "source": "around80_spain_05"
+  },
+  {
+    "query_id": "83",
+    "query": "How does couscous relate historically to French and European cuisine?",
+    "gold_answer": "Couscous was integrated into French and European cuisine at the beginning of the twentieth century through the French colonial empire and the Pieds-Noirs of Algeria. In 2020, couscous was added to UNESCO's Intangible Cultural Heritage list.",
+    "source": "wikipedia:couscous"
+  },
+  {
+    "query_id": "84",
+    "query": "What are the two main styles of cooking a tagine according to Wikipedia?",
+    "gold_answer": "In the original qidra style, clarified butter is used to lubricate the surface and a puree of chopped onion is added for flavour and aroma. In another style, the ingredients are placed in olive oil to enrich the flavours.",
+    "source": "wikipedia:tagine"
+  },
+  {
+    "query_id": "85",
+    "query": "What do the Wikibooks Hummus I recipe instructions say about the process of removing chickpea skins?",
+    "gold_answer": "According to the Hummus I recipe, after boiling the chickpeas for about 45 minutes, they should swell enough for their skins to come off. You give it a stir, and use a slotted spoon to remove as many of the skins as you can from the water. Then you continue cooking covered for about 2 hours, or until they almost dissolve to a paste.",
+    "source": "wikibooks:cookbookhummus_i"
+  },
+  {
+    "query_id": "86",
+    "query": "According to Around the World in 80 Cuisines, what characterises Turkish cuisine's vegetable-centred tradition?",
+    "gold_answer": "According to the blog, as the consumption of meat only became common outside of special celebrations in modern times, there is a healthy basis of vegetables to Turkish cuisine, showcasing tomato, capsicum, olives, artichokes, cabbage, celery, eggplants, and a wide variety of legumes. There are hundreds of wonderful Turkish recipes that upgrade the humble vegetable into superstar status, for instance by stuffing them with spiced mixtures of grain or other vegetables, a category called 'dolma'.",
+    "source": "around80_turkey_cyprus_01"
+  },
+  {
+    "query_id": "87",
+    "query": "How does Around the World in 80 Cuisines describe the distinction between Australians' understanding of parmigiana versus the Italian original?",
+    "gold_answer": "According to the blog, if you order a parmigiana in an Australian pub, you will likely be brought a chicken 'parma', which is a breaded piece of chicken topped with tomato passata and cheese. Italians consider this definitively not Italian and an Australian bastardisation of the concept. In Italy, parmigiana refers to a preparation of baked vegetables with passata and cheese, most often eggplant.",
+    "source": "around80_southern_italy_04"
+  },
+  {
+    "query_id": "88",
+    "query": "What is the cultural significance of duck in Portuguese arroz de pato and how is the dish described?",
+    "gold_answer": "Arroz de pato is described as sort of like the Portuguese version of a paella, using the same variety of rice called Calasparra. The blogger notes a passionate love affair with duck discovered at the beginning of their culinary journey. The dish involves making a rice base with chicken stock, onions, carrots, leeks, celery, garlic, tomato, saffron, bay leaves, cloves, parsley, pepper, and lots of thyme.",
+    "source": "around80_portugal_04"
+  },
+  {
+    "query_id": "89",
+    "query": "What is ratatouille and where does its name come from according to Around the World in 80 Cuisines?",
+    "gold_answer": "Ratatouille is a vegetable stew from Nice, France. The name is related to the verb 'touiller,' which means 'to stir up,' referring to the origins of this dish as a mixed vegetable stew. The blog notes that the rat/ratatouille connection in English is more a product of the English predilection for puns than a literal recipe.",
+    "source": "around80_southern_france_monaco_05"
+  },
+  {
+    "query_id": "90",
+    "query": "According to Wikipedia, what are the key ingredients that define ancient Greek cuisine and how has that tradition continued?",
+    "gold_answer": "Ancient Greek cuisine was characterized by frugality and was founded on the Mediterranean triad: wheat, olive oil, and wine, with meat being rarely eaten and fish being more common. This tradition continued in Cyprus. Modern Greek cuisine uses vegetables, olive oil, grains, fish, and meat including pork, poultry, veal, beef, lamb, rabbit, and goat, along with pasta, cheeses, herbs, lemon juice, olives, and yogurt.",
+    "source": "wikipedia:greek_cuisine"
+  }
+]

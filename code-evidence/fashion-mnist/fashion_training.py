@@ -1,18 +1,15 @@
-"""
-Feel free to replace this code with your own model training code. 
-This is just a simple example to get you started.
-
-This training script uses imports relative to the base directory (assignment/).
-To run this training script with uv, ensure you're in the root directory (assignment/)
-and execute: uv run -m submission.fashion_training
-"""
+"""Train and validate the compact Fashion-MNIST convolutional classifier."""
 import os
 import numpy as np
 import torch, torchvision
 import csv
 
-from submission import engine
-from submission.fashion_model import Net
+try:
+    from . import engine
+    from .fashion_model import Net
+except ImportError:  # Supports running the file directly from this folder.
+    import engine
+    from fashion_model import Net
 
 
 def train_fashion_model(fashion_mnist, 
@@ -21,11 +18,7 @@ def train_fashion_model(fashion_mnist,
                         learning_rate=0.001,
                         USE_GPU=False,
                         weight_decay=1e-4):
-    """
-    You can modify the contents of this function as needed, but DO NOT CHANGE the arguments,
-    the function name, or return values, as this will be called during marking!
-    (You can change the default values or add additional keyword arguments if needed.)
-    """
+    """Train the model and return the best validation state dictionary."""
     # Optionally use GPU if available
     if USE_GPU and torch.cuda.is_available():
         device = torch.device('cuda')

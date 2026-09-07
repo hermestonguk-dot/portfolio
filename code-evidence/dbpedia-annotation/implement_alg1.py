@@ -118,6 +118,8 @@ def Class_Selection(classes):
     """
     Step 4: Select the most frequent class in C as the output annotation.
     """
+    if not classes:
+        return "NONE"
     return Counter(classes).most_common(1)[0][0]
 
 

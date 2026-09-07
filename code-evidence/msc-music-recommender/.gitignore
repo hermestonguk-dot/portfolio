@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+KGRec-dataset/
+data/
+artifacts/
+results/plots/
+checkpoints/
+runs/
+models/
+*.pt
+*.pth
+*.ckpt

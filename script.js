@@ -1,98 +1,119 @@
 const projects = [
   {
-    id: "robot-composer",
-    title: "AI-Powered Robot Composer",
-    year: "2024-2025",
-    tags: ["AI", "Python", "Evaluation"],
-    stack: ["Python", "PyTorch", "Music21", "LSTM", "VAE", "MIDI"],
-    summary: "Final-year emotion-conditioned MIDI generator with short-term and long-term latent modelling.",
+    id: "music-recommender",
+    title: "MSc Music Recommender",
+    year: "2026",
+    tags: ["AI", "Data", "Evaluation", "Python"],
+    stack: ["Python", "PyTorch", "LightGCN", "Ranking", "Fairness"],
+    summary: "Graph-based music recommendation with popularity-aware reranking.",
     evidence: [
-      "Designed a 12.55-million-parameter Hierarchical VAE with recurrent short-term and phrase-level representations conditioned on valence, arousal, and dominance.",
-      "Trained over 310,748 sequence windows using a 4,343-token note/chord vocabulary and 11 duration classes.",
-      "Packaged the original checkpoint into a tested CLI with reproducible MIDI generation, eight representative VAD samples, and a results report; the original notebook recorded 1.7574 note perplexity."
+      "Prepared 751,531 implicit interactions from 5,199 users and 8,640 items for graph collaborative filtering.",
+      "Compared LightGCN depth and embedding size using held-out ranking evaluation and repeated seeds.",
+      "The selected one-layer, 128-dimensional model reached mean test NDCG@20 of 0.1294; Smooth xQuAD increased catalogue coverage while keeping the ranking loss small."
     ],
-    lesson: "Generative systems need more than an interesting architecture. The conditioning signal, artefact pipeline, objective metrics, and human evaluation all need to remain inspectable after the experiment ends.",
+    lesson: "A recommendation model needs an evaluation protocol that makes the ranking task and the trade-offs visible. Accuracy and catalogue exposure need to be read together.",
+    codeLink: "code-evidence/msc-music-recommender/README.md",
+    visual: [38, 54, 66, 48, 80, 62, 74, 90, 68, 84]
+  },
+  {
+    id: "hkl",
+    title: "HKL Racing Prediction",
+    year: "2026",
+    tags: ["AI", "Data", "Evaluation", "Python"],
+    stack: ["Python", "scikit-learn", "Feature engineering", "Testing"],
+    summary: "Personal tabular machine-learning pipeline for top-four race prediction.",
+    evidence: [
+      "Built a time-aware validation pipeline over 107,033 historical race rows.",
+      "Added race-level rank, field-size, and implied-probability features before training several classifiers.",
+      "The Random Forest reached 69.4% balanced accuracy against a 50.0% balanced-accuracy baseline."
+    ],
+    lesson: "A useful model result depends on the split strategy, the baseline, and the limits of what the data can support.",
+    codeLink: "code-evidence/HKL_Prediction_Project/README.md",
+    visual: [48, 62, 56, 80, 72, 88, 64, 76, 92, 68]
+  },
+  {
+    id: "robot-composer",
+    title: "AIVAD Robot Composer",
+    year: "2024-2025",
+    tags: ["AI", "Evaluation", "Python"],
+    stack: ["Python", "PyTorch", "LSTM", "VAE", "MIDI"],
+    summary: "Emotion-conditioned piano generation using valence, arousal, and dominance.",
+    evidence: [
+      "Designed a 12.55-million-parameter hierarchical VAE with short-term and long-term latent representations.",
+      "Packaged the trained checkpoint into a tested CLI with MIDI generation, analysis, and representative samples.",
+      "The original evaluation recorded note perplexity of 1.7574 and the curated repository independently checks the included MIDI outputs."
+    ],
+    lesson: "Generative systems are easier to understand when the model, output artefacts, and evaluation measures remain inspectable after training.",
     codeLink: "code-evidence/ai-robot-composer/README.md",
     visual: [46, 58, 70, 84, 62, 92, 76, 88, 68, 96]
   },
   {
-    id: "ecommerce",
-    title: "Full-Stack E-Commerce Platform",
-    year: "2023",
-    tags: ["Full-stack", "Backend", "Team"],
-    stack: ["Flask", "SQL", "JavaScript", "HTML/CSS", "Git"],
-    summary: "Team coursework product with authentication, product listing, and payment-related flows.",
-    evidence: [
-      "Led back-end development and translated feature requirements into database-backed application logic.",
-      "Integrated Flask and SQL workflows with JavaScript, HTML, and CSS front-end components.",
-      "Worked with four teammates using Git, Agile planning, testing, and CI/CD practices."
-    ],
-    lesson: "The useful part of full-stack work is not only writing endpoints; it is making a user flow hold together across data, interface, and team coordination.",
-    visual: [34, 58, 72, 44, 86, 52, 68, 40, 78, 60]
-  },
-  {
     id: "rag",
-    title: "Retrieval-Augmented Generation QA Pipeline",
+    title: "Retrieval-Augmented Generation Pipeline",
     year: "2026",
-    tags: ["AI", "Data", "Evaluation"],
-    stack: ["Python", "sentence-transformers", "BM25", "Reranking", "JSON"],
-    summary: "Multi-stage RAG pipeline with structured outputs and full component comparison.",
+    tags: ["AI", "Data", "Evaluation", "Python"],
+    stack: ["Python", "Embeddings", "BM25", "Reranking", "Transformers"],
+    summary: "A multi-stage question-answering pipeline evaluated across retrieval and prompt choices.",
     evidence: [
-      "Built corpus preparation, chunking, embedding generation, retrieval, reranking, prompt variants, and answer evaluation.",
-      "Evaluated 84 valid configurations across 90 gold-answer question-answer pairs.",
-      "Best configuration achieved 0.342 ROUGE-L, about 30 percent above a 0.263 baseline."
+      "Compared section-aware and sliding-window chunking, dense embeddings, BM25, cross-encoder reranking, and four prompt strategies.",
+      "Evaluated 84 configurations over 90 benchmark questions.",
+      "The best recorded configuration achieved ROUGE-L 0.342 compared with 0.263 for the baseline."
     ],
-    lesson: "AI features need measurable baselines, inspectable outputs, and iteration loops. A model call is only one part of the product.",
+    lesson: "A language model is only one part of a useful question-answering system. Retrieval quality, prompt design, and measurement all affect the result.",
+    codeLink: "code-evidence/rag-pipeline/README.md",
     visual: [42, 50, 66, 74, 62, 88, 55, 70, 80, 92]
   },
   {
-    id: "java-testing",
-    title: "Java Game Testing and Behaviour Specification",
-    year: "2025",
-    tags: ["Testing", "Java", "Debugging"],
-    stack: ["Java 17", "Maven", "Cucumber", "JUnit", "BDD"],
-    summary: "Existing Java codebase extended with behaviour-driven feature tests and generated reports.",
+    id: "data-engineering",
+    title: "Data Engineering Coursework",
+    year: "2025-2026",
+    tags: ["Data", "Python", "Testing"],
+    stack: ["SQLite", "MongoDB", "Pandas", "Snakemake", "CSV/JSON"],
+    summary: "Four practical labs covering data cleaning, integration, analysis, and workflow automation.",
     evidence: [
-      "Added Cucumber feature specifications and a JUnit runner in a Maven Java 17 project.",
-      "Covered behaviours including snake direction changes, personal high scores, and unlockable tree toggling.",
-      "Turned expected behaviour into repeatable checks while reading unfamiliar code."
+      "Worked with SQLite databases and transport data, including cleaning and query tasks.",
+      "Integrated CSV, JSON, MongoDB, and SQLite data sources in a journey-time analysis.",
+      "Built a Snakemake workflow with configuration, validation, notebooks, and environment definitions."
     ],
-    lesson: "Good debugging starts by making the expected behaviour precise enough to test, then tightening the loop until the failure is explainable.",
-    visual: [28, 36, 54, 48, 76, 62, 90, 74, 60, 82]
-  },
-  {
-    id: "cpp-library",
-    title: "C++ Library Management System",
-    year: "2024",
-    tags: ["Systems", "Testing", "C++"],
-    stack: ["C++17", "Make", "Catch", "Static analysis", "CSV"],
-    summary: "Object-oriented C++ system with borrowing logic, CSV export, and automated tests.",
-    evidence: [
-      "Implemented document subclasses, dynamic dispatch, copy and move semantics, and borrowing/returning logic.",
-      "Validated the system with a Makefile, Catch tests, compiler warnings, static analysis, and clang-tidy targets.",
-      "Kept implementation behaviour visible through CSV export and repeatable test runs."
-    ],
-    lesson: "Lower-level software makes design trade-offs harder to hide. Ownership, copying, and validation need to be deliberate.",
-    visual: [52, 46, 80, 68, 42, 74, 58, 88, 64, 76]
+    lesson: "Data work becomes more reliable when the transformations, inputs, and execution order are explicit.",
+    codeLink: "code-evidence/comp63301-data-engineering-concepts/README.md",
+    visual: [32, 48, 70, 58, 82, 66, 90, 74, 54, 78]
   },
   {
     id: "fashion-mnist",
-    title: "Efficient Fashion-MNIST Classifier",
+    title: "Compact Fashion-MNIST CNN",
     year: "2025",
-    tags: ["AI", "Python", "Docker"],
-    stack: ["Python", "PyTorch", "Docker", "CNNs", "Validation"],
-    summary: "Compact image classifier with reproducible packaging under a parameter constraint.",
+    tags: ["AI", "Evaluation", "Python"],
+    stack: ["Python", "PyTorch", "CNN", "Validation"],
+    summary: "A compact image classifier with augmentation and repeated-split tuning.",
     evidence: [
-      "Implemented a PyTorch CNN and training loop with validation tracking and saved weights.",
-      "Used Docker-based submission requirements and scripts to verify loading, prediction format, and training behaviour.",
-      "Best recorded validation accuracy reached 91.8 percent under a 100k-parameter constraint."
+      "Implemented three convolutional blocks with batch normalisation, pooling, global average pooling, and a small classifier head.",
+      "Compared learning-rate and weight-decay settings over repeated train-validation splits.",
+      "Kept the training loop, validation history, and weight export separate so the model can be checked independently."
     ],
-    lesson: "Constraints are useful. They push the work away from brute force and towards model design, measurement, and reproducibility.",
+    lesson: "A parameter constraint made the model design and validation choices matter more than simply adding capacity.",
+    codeLink: "code-evidence/fashion-mnist/README.md",
     visual: [38, 44, 57, 63, 70, 82, 88, 91, 76, 84]
+  },
+  {
+    id: "dbpedia",
+    title: "DBpedia Column Annotation",
+    year: "2025",
+    tags: ["Data", "Evaluation", "Python"],
+    stack: ["Python", "Requests", "DBpedia", "SPARQL"],
+    summary: "Entity lookup and ontology-aware class selection for table columns.",
+    evidence: [
+      "Sampled distinct column values and resolved their top DBpedia entities through the Lookup API.",
+      "Compared majority-class selection with ontology expansion and coverage-specificity selection.",
+      "Added handling for empty lookup results so a failed external query produces a visible result instead of a crash."
+    ],
+    lesson: "External knowledge-base systems need clear fallback behaviour because a network response can be empty even when the code is correct.",
+    codeLink: "code-evidence/dbpedia-annotation/README.md",
+    visual: [34, 52, 64, 78, 46, 70, 86, 60, 74, 90]
   }
 ];
 
-const filters = ["All", "Full-stack", "AI", "Testing", "Systems", "Backend", "Data"];
+const filters = ["All", "AI", "Data", "Evaluation", "Python", "Testing"];
 let activeFilter = "All";
 let selectedProjectId = projects[0].id;
 
@@ -119,38 +140,26 @@ function renderFilters() {
 }
 
 function getVisibleProjects() {
-  if (activeFilter === "All") {
-    return projects;
-  }
-
-  return projects.filter((project) => project.tags.includes(activeFilter));
+  return activeFilter === "All"
+    ? projects
+    : projects.filter((project) => project.tags.includes(activeFilter));
 }
 
 function renderProjectCards() {
   const visibleProjects = getVisibleProjects();
-
   projectGrid.innerHTML = visibleProjects
     .map((project) => {
       const selectedClass = project.id === selectedProjectId ? " is-selected" : "";
-      const bars = project.visual
-        .map((height) => `<span style="height:${height}%"></span>`)
-        .join("");
-      const stack = project.stack
-        .map((item) => `<span class="stack-pill">${item}</span>`)
-        .join("");
-
+      const bars = project.visual.map((height) => `<span style="height:${height}%"></span>`).join("");
+      const stack = project.stack.map((item) => `<span class="stack-pill">${item}</span>`).join("");
       return `
         <article class="project-card${selectedClass}" tabindex="0" data-project-id="${project.id}">
           <div class="project-visual" aria-hidden="true">${bars}</div>
-          <div class="project-meta">
-            <span>${project.year}</span>
-            <span>${project.tags.join(" / ")}</span>
-          </div>
+          <div class="project-meta"><span>${project.year}</span><span>${project.tags.join(" / ")}</span></div>
           <h2>${project.title}</h2>
           <p>${project.summary}</p>
           <div class="stack-list">${stack}</div>
-        </article>
-      `;
+        </article>`;
     })
     .join("");
 
@@ -160,7 +169,6 @@ function renderProjectCards() {
       renderProjectCards();
       renderDetailPanel();
     };
-
     card.addEventListener("click", selectCard);
     card.addEventListener("keydown", (event) => {
       if (event.key === "Enter" || event.key === " ") {
@@ -174,21 +182,13 @@ function renderProjectCards() {
 function renderDetailPanel() {
   const project = projects.find((item) => item.id === selectedProjectId) || projects[0];
   const evidence = project.evidence.map((item) => `<li>${item}</li>`).join("");
-  const codeLink = project.codeLink
-    ? `<a class="detail-action" href="${project.codeLink}">View code evidence</a>`
-    : "";
-
   detailPanel.innerHTML = `
     <p class="detail-kicker">${project.tags.join(" / ")}</p>
     <h2>${project.title}</h2>
     <p>${project.summary}</p>
     <ul class="detail-list">${evidence}</ul>
-    <div class="lesson">
-      <strong>What I learned</strong>
-      ${project.lesson}
-    </div>
-    ${codeLink}
-  `;
+    <div class="lesson"><strong>What I learned</strong>${project.lesson}</div>
+    <a class="detail-action" href="${project.codeLink}">View code evidence</a>`;
 }
 
 function render() {

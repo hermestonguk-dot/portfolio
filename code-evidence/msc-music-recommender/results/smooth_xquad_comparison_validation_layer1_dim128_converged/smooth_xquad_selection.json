@@ -1,0 +1,11 @@
+{
+  "selection_split": "validation",
+  "selection_metric": "ndcg@20",
+  "maximum_relative_loss": 0.01,
+  "base_value": 0.12070705637450115,
+  "minimum_acceptable_value": 0.11949998581075613,
+  "selected_smooth_xquad_lambda": 0.4,
+  "selected_value": 0.11981261619253887,
+  "selected_relative_loss": 0.007410007408243133,
+  "rule": "Largest tested Smooth xQuAD lambda whose aggregate validation ndcg@20 loss does not exceed 1.0% relative to base ranking."
+}

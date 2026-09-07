@@ -1,0 +1,8 @@
+numpy
+scikit-learn
+sentence-transformers
+transformers
+accelerate
+rank-bm25
+rouge-score
+torch

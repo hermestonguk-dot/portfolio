@@ -1,0 +1,21 @@
+{
+  "raw_dir": "KGRec-dataset\\KGRec-music",
+  "interaction_file": "KGRec-dataset\\KGRec-music\\implicit_lf_dataset.csv",
+  "processed_dir": "data\\processed\\kgrec_music",
+  "seed": 42,
+  "include_text": false,
+  "raw_interaction_rows": 751531,
+  "unique_interactions": 751531,
+  "duplicates_removed": 0,
+  "num_users": 5199,
+  "num_items": 8640,
+  "train_interactions": 741133,
+  "val_interactions": 5199,
+  "test_interactions": 5199,
+  "train_bipartite_edges": 741133,
+  "train_undirected_edges": 1482266,
+  "items_with_tags": 8239,
+  "items_without_tags": 401,
+  "items_with_descriptions": 8640,
+  "items_without_descriptions": 0
+}

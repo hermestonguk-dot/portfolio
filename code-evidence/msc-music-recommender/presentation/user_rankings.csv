@@ -1,0 +1,61 @@
+policy,user_index,rank,item_id,training_popularity,popularity_group,base_candidate_rank,rank_movement,is_test_target
+Base,9,1,5459,261,SHORT-HEAD,1,0,False
+Base,9,2,8362,162,SHORT-HEAD,2,0,False
+Base,9,3,8614,67,SHORT-HEAD,3,0,False
+Base,9,4,2560,101,SHORT-HEAD,4,0,False
+Base,9,5,7224,78,SHORT-HEAD,5,0,False
+Base,9,6,850,142,SHORT-HEAD,6,0,False
+Base,9,7,7274,48,LONG-TAIL,7,0,False
+Base,9,8,2456,41,LONG-TAIL,8,0,False
+Base,9,9,4352,171,SHORT-HEAD,9,0,False
+Base,9,10,2848,26,LONG-TAIL,10,0,False
+Base,9,11,3852,217,SHORT-HEAD,11,0,False
+Base,9,12,5681,70,SHORT-HEAD,12,0,False
+Base,9,13,5816,136,SHORT-HEAD,13,0,False
+Base,9,14,4966,73,SHORT-HEAD,14,0,False
+Base,9,15,2489,42,LONG-TAIL,15,0,False
+Base,9,16,731,38,LONG-TAIL,16,0,False
+Base,9,17,2470,137,SHORT-HEAD,17,0,False
+Base,9,18,3349,946,SHORT-HEAD,18,0,False
+Base,9,19,8032,38,LONG-TAIL,19,0,False
+Base,9,20,5195,197,SHORT-HEAD,20,0,False
+GPD alpha=0.2,9,1,5459,261,SHORT-HEAD,1,0,False
+GPD alpha=0.2,9,2,8362,162,SHORT-HEAD,2,0,False
+GPD alpha=0.2,9,3,8614,67,SHORT-HEAD,3,0,False
+GPD alpha=0.2,9,4,2560,101,SHORT-HEAD,4,0,False
+GPD alpha=0.2,9,5,7224,78,SHORT-HEAD,5,0,False
+GPD alpha=0.2,9,6,7274,48,LONG-TAIL,7,1,False
+GPD alpha=0.2,9,7,850,142,SHORT-HEAD,6,-1,False
+GPD alpha=0.2,9,8,2456,41,LONG-TAIL,8,0,False
+GPD alpha=0.2,9,9,2848,26,LONG-TAIL,10,1,False
+GPD alpha=0.2,9,10,4352,171,SHORT-HEAD,9,-1,False
+GPD alpha=0.2,9,11,5681,70,SHORT-HEAD,12,1,False
+GPD alpha=0.2,9,12,3852,217,SHORT-HEAD,11,-1,False
+GPD alpha=0.2,9,13,4966,73,SHORT-HEAD,14,1,False
+GPD alpha=0.2,9,14,5816,136,SHORT-HEAD,13,-1,False
+GPD alpha=0.2,9,15,731,38,LONG-TAIL,16,1,False
+GPD alpha=0.2,9,16,2489,42,LONG-TAIL,15,-1,False
+GPD alpha=0.2,9,17,8032,38,LONG-TAIL,19,2,False
+GPD alpha=0.2,9,18,2470,137,SHORT-HEAD,17,-1,False
+GPD alpha=0.2,9,19,8002,86,SHORT-HEAD,21,2,False
+GPD alpha=0.2,9,20,5953,46,LONG-TAIL,26,6,False
+Smooth xQuAD lambda=0.4,9,1,5459,261,SHORT-HEAD,1,0,False
+Smooth xQuAD lambda=0.4,9,2,8362,162,SHORT-HEAD,2,0,False
+Smooth xQuAD lambda=0.4,9,3,8614,67,SHORT-HEAD,3,0,False
+Smooth xQuAD lambda=0.4,9,4,7274,48,LONG-TAIL,7,3,False
+Smooth xQuAD lambda=0.4,9,5,2560,101,SHORT-HEAD,4,-1,False
+Smooth xQuAD lambda=0.4,9,6,2456,41,LONG-TAIL,8,2,False
+Smooth xQuAD lambda=0.4,9,7,7224,78,SHORT-HEAD,5,-2,False
+Smooth xQuAD lambda=0.4,9,8,2848,26,LONG-TAIL,10,2,False
+Smooth xQuAD lambda=0.4,9,9,850,142,SHORT-HEAD,6,-3,False
+Smooth xQuAD lambda=0.4,9,10,4352,171,SHORT-HEAD,9,-1,False
+Smooth xQuAD lambda=0.4,9,11,2489,42,LONG-TAIL,15,4,False
+Smooth xQuAD lambda=0.4,9,12,3852,217,SHORT-HEAD,11,-1,False
+Smooth xQuAD lambda=0.4,9,13,5681,70,SHORT-HEAD,12,-1,False
+Smooth xQuAD lambda=0.4,9,14,731,38,LONG-TAIL,16,2,False
+Smooth xQuAD lambda=0.4,9,15,5816,136,SHORT-HEAD,13,-2,False
+Smooth xQuAD lambda=0.4,9,16,4966,73,SHORT-HEAD,14,-2,False
+Smooth xQuAD lambda=0.4,9,17,8032,38,LONG-TAIL,19,2,False
+Smooth xQuAD lambda=0.4,9,18,2470,137,SHORT-HEAD,17,-1,False
+Smooth xQuAD lambda=0.4,9,19,5953,46,LONG-TAIL,26,7,False
+Smooth xQuAD lambda=0.4,9,20,3349,946,SHORT-HEAD,18,-2,False

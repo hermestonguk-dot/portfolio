@@ -1,7 +1,4 @@
-"""
-Feel free to replace this code with your own model training code. 
-This is just a simple example to get you started.
-"""
+"""Training and validation loops for the Fashion-MNIST classifier."""
 
 import numpy as np
 import torch

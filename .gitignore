@@ -1,0 +1,27 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local outputs and credentials
+outputs/
+outputs_*/
+*.log
+.env
+
+# Local model and dataset files
+data/
+artifacts/
+checkpoints/
+runs/
+models/
+*.pth
+*.pt
+*.ckpt
+
+# Notebook-generated exports
+generation_results.json
+question_summary.json
+output_payload.json

@@ -1,29 +1,53 @@
-# Hermes Project Showcase
+# Hermes Tong | Machine Learning Portfolio
 
-This is a static interactive portfolio intended for GitHub Pages. It is designed to support junior full-stack applications where the employer wants evidence that you can build, explain, and iterate.
+This repository contains selected university and personal projects from my
+MSc Machine Learning and previous software work. The projects are presented as
+code that can be inspected, run, and discussed in an interview.
 
-## Files
+The portfolio site is a small static page. Open [`index.html`](index.html)
+locally, or publish the repository with GitHub Pages. The project source is in
+[`code-evidence/`](code-evidence/README.md), with a README in each project
+folder.
 
-- `index.html`: page structure and project dashboard.
-- `styles.css`: responsive layout and visual styling.
-- `script.js`: project data, filters, and detail panel interaction.
-- `code-evidence/`: selected real code and runnable coursework evidence for portfolio inspection.
+## Featured work
 
-## Code Evidence
+| Project | What it demonstrates |
+|---|---|
+| [Music recommender](code-evidence/msc-music-recommender/README.md) | LightGCN, graph construction, ranking evaluation, and popularity-aware reranking |
+| [HKL racing prediction](code-evidence/HKL_Prediction_Project/README.md) | A complete personal machine-learning pipeline with time-aware validation |
+| [Robot composer](code-evidence/ai-robot-composer/README.md) | PyTorch sequence generation, latent modelling, MIDI output, and testing |
+| [RAG pipeline](code-evidence/rag-pipeline/README.md) | Chunking, dense retrieval, BM25, reranking, prompting, and comparison across 84 configurations |
+| [Data engineering labs](code-evidence/comp63301-data-engineering-concepts/README.md) | SQLite, MongoDB integration, data cleaning, and Snakemake workflows |
+| [Fashion-MNIST classifier](code-evidence/fashion-mnist/README.md) | Compact CNN design, augmentation, validation, and hyperparameter search |
+| [DBpedia annotation](code-evidence/dbpedia-annotation/README.md) | Entity lookup and ontology-aware column annotation |
 
-The COMP63301 Data Engineering Concepts material has been extracted into `code-evidence/comp63301-data-engineering-concepts`, with four separate lab folders and local datasets/databases where needed.
+## Repository structure
 
-## Publishing Notes
+```text
+.
+|-- index.html                 # GitHub Pages entry point
+|-- script.js                  # project data and interaction
+|-- styles.css                 # responsive page styling
+|-- code-evidence/             # selected source and experiment evidence
+|-- PUBLISHING.md              # GitHub upload and Pages instructions
+`-- README.md
+```
 
-Use GitHub Pages with either:
+## Working with the projects
 
-- A repository called `hermes-project-showcase`, published from the main branch.
-- A profile site repository called `hermestong.github.io`.
+Each project has its own environment instructions. Most Python projects can
+be run in a local virtual environment. Generated model files, raw datasets,
+and local outputs are excluded from the repository where they are large or
+subject to external distribution rules.
 
-For the Minimal Viable Launch application, the portfolio link should be added to the email body after deployment.
+The coursework folders include publication notes. I will only make submitted
+coursework public where the module rules allow it. The MSc music recommender
+and HKL prediction project are the main portfolio examples for personal
+discussion.
 
-## Next Improvements
+## Contact
 
-- Add real public GitHub repository links where coursework rules allow it.
-- Add a short demo video or screenshots for the e-commerce and RAG projects.
-- Rebuild the same idea in Next.js and Supabase as a stronger live demo for full-stack roles.
+Email: [hermestonguk@gmail.com](mailto:hermestonguk@gmail.com)<br>
+LinkedIn: [linkedin.com/in/hermestong](https://www.linkedin.com/in/hermestong)
+
+For upload instructions, see [`PUBLISHING.md`](PUBLISHING.md).

@@ -1,0 +1,31 @@
+{
+  "split": "test",
+  "checkpoints": [
+    "artifacts\\lightgcn_sweeps\\layer1_dim128_convergence_5000_validation\\data-kgrec_music__dim128__layers1__lr0p001__reg0p0001__seed42",
+    "artifacts\\lightgcn_sweeps\\layer1_dim128_convergence_5000_validation\\data-kgrec_music__dim128__layers1__lr0p001__reg0p0001__seed7",
+    "artifacts\\lightgcn_sweeps\\layer1_dim128_convergence_5000_validation\\data-kgrec_music__dim128__layers1__lr0p001__reg0p0001__seed99"
+  ],
+  "data_dir": "data\\processed\\kgrec_music",
+  "candidate_pool_size": 100,
+  "top_k": [
+    10,
+    20
+  ],
+  "popularity_weights": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.4
+  ],
+  "smooth_xquad_lambdas": [
+    0.4
+  ],
+  "head_interaction_share_target": 0.8,
+  "head_interaction_share_actual": 0.8011625443746264,
+  "head_item_count": 3146,
+  "tail_item_count": 5494,
+  "head_popularity_cutoff": 66.0,
+  "profile_source": "training interactions only",
+  "device": "cuda"
+}

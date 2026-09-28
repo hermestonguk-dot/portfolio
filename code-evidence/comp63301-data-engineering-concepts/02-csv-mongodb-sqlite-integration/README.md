@@ -1,6 +1,6 @@
 # Lab 02: CSV, MongoDB, and SQLite Integration
 
-## What This Shows
+## contents
 
 This lab integrates multiple data sources: traffic CSVs, weather documents in MongoDB, a SQLite route-distance database, and journey-time archive data. The submitted code is in `journey_solution.py`.
 
@@ -37,12 +37,4 @@ python journey_solution.py
 
 The script writes intermediate CSVs to `student_answer_csvs/`.
 
-## Skills Demonstrated
-
-- CSV schema harmonisation
-- MongoDB document loading and querying
-- SQLite joins
-- time-series aggregation
-- multi-source data integration
-- one-hot encoding for model-ready features
 

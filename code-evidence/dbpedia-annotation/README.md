@@ -31,5 +31,4 @@ python implement_alg1.py
 python implement_alg2.py results_alg2.csv
 ```
 
-The scripts query the public DBpedia Lookup and SPARQL endpoints, so results
-depend on network availability and the current contents of those services.
+The scripts query the public DBpedia Lookup and SPARQL endpoints.

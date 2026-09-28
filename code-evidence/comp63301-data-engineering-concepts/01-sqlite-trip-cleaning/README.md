@@ -1,6 +1,6 @@
 # Lab 01: SQLite Trip Cleaning
 
-## What This Shows
+## contents 
 
 This lab implements SQLite data-cleaning and query logic over trip data. The submitted code is in `tour_solution.py`, and the local database needed by the code is `coursework2.db`.
 
@@ -21,13 +21,6 @@ The original coursework test block is commented out inside `tour_solution.py`. T
 python tour_solution.py
 ```
 
-The code mutates the database during cleaning tasks, so run it on a copy of `coursework2.db` if you want to preserve the original database state.
 
-## Skills Demonstrated
 
-- SQLite queries and updates
-- missing-value handling
-- schema standardisation
-- duration calculations
-- distance calculation from geocoded data
 

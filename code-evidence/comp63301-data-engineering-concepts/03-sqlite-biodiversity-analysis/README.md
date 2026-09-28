@@ -1,6 +1,6 @@
 # Lab 03: SQLite Biodiversity Analysis
 
-## What This Shows
+## Contents
 
 This lab uses Pandas and SQLite to analyse Sites of Biological Importance data. The code imports tabular data, builds a SQLite database, normalises feature codes, and writes query outputs to CSV.
 
@@ -27,7 +27,7 @@ python comp63301_cw6.py
 
 The script writes outputs such as `districts.csv`, `hectars.csv`, `features.csv`, `featurecodes.csv`, `sitefeatures.csv`, and other query results. It also attempts to download the Excel source file; the same Excel file is included locally as a fallback.
 
-## Skills Demonstrated
+## Skills
 
 - Pandas-to-SQLite ingestion
 - SQL filtering and aggregation

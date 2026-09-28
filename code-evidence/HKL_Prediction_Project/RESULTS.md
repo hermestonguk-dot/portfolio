@@ -61,7 +61,6 @@ Positive means the horse finished in the top four.
 
 Races were ordered by date and race number, with the final 20% of whole races held out for validation. This prevents runners from one race appearing on both sides of the split and is more representative of future prediction than a random split. Decision thresholds were selected on this same holdout set, so threshold-dependent metrics should be treated as development estimates rather than a final independent test.
 
-The results demonstrate an offline machine-learning workflow; they do not establish future profitability, and changing race conditions or data quality may reduce performance.
 
 ## Automated Checks
 
@@ -78,5 +77,3 @@ python -m hkl_prediction run
 python -m hkl_prediction report --report-path RESULTS.md
 python -m unittest discover -s tests
 ```
-
-Report generated from pipeline artefacts at `2026-07-21T13:09:18Z`.

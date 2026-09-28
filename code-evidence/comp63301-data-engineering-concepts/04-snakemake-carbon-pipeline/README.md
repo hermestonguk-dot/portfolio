@@ -1,6 +1,6 @@
 # Lab 04: Snakemake Carbon Data Pipeline
 
-## What This Shows
+## Contents
 
 This lab implements a Snakemake ETL pipeline for the Global Carbon Project fossil CO2 emissions dataset. It downloads source data, validates it with metadata, cleans country-level records, and generates per-country/per-source result files.
 
@@ -28,13 +28,6 @@ Run from this lab folder:
 snakemake --use-conda --cores 1
 ```
 
-The workflow downloads data from Zenodo, so it needs internet access.
 
-## Skills Demonstrated
 
-- reproducible workflow orchestration
-- data download and validation
-- per-rule Conda environments
-- notebook-based transformation steps
-- structured output generation
 

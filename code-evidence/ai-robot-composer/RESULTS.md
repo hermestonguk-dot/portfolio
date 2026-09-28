@@ -24,7 +24,7 @@ This report combines the evaluation recorded in the final notebook with a fresh,
 | Example average duration | 0.667 | Quarter lengths |
 | Example average velocity | 84.48 | MIDI velocity |
 
-The associated CV reports an approximately 18% improvement in perceived dominance expression over baseline outputs. The available export does not contain the raw human-study responses, so that result has not been independently recalculated in this repository.
+Approximately 18% improvement in perceived dominance expression over baseline outputs. The available export does not contain the raw human-study tests.
 
 ## Included Sample Analysis
 

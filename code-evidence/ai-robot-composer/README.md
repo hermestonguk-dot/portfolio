@@ -2,9 +2,8 @@
 
 Final year bachelors project for generating piano MIDI conditioned on continuous Valence, Arousal, and Dominance (VAD) values. The model is a PyTorch hierarchical variational autoencoder with separate short-term and long-term latent spaces, recurrent sequence modelling, and prediction heads for notes, durations, and velocities.
 
-This repository is a curated, runnable version of the original notebook submission. It keeps the trained model, vocabulary, representative generated samples, inference path, evaluation utilities, and core training loss while removing notebook state, duplicate MIDI collections, and an 827 MB cached dataset.
 
-## Evidence
+## Methodology
 
 - 310,748 training sequences of 64 events were represented in the original cached dataset.
 - The learned vocabulary contains 4,343 note and chord tokens plus 11 duration classes.
@@ -17,19 +16,7 @@ See [RESULTS.md](RESULTS.md) for model provenance and reproducible analysis of t
 ## Architecture
 
 ```text
-note + duration embeddings
-          |
-bidirectional short-term LSTM
-          |
-short-term latent distribution
-          |
-three-layer long-term LSTM + VAD projection
-          |
-long-term latent distribution
-          |
-LSTM decoder
-          |
-note, duration, and velocity outputs
+note + duration embeddings -> bidirectional short-term LSTM -> short-term latent distribution -> three-layer long-term LSTM + VAD projection -> long-term latent distribution -> LSTM decoder -> note, duration, and velocity outputs and MIDI generation
 ```
 
 ## Setup
@@ -40,7 +27,7 @@ python -m venv .venv
 pip install -e ".[dev]"
 ```
 
-## Run The Trained Model
+## Run the model
 
 Inspect the checkpoint and vocabulary:
 
@@ -104,14 +91,6 @@ Equivalent module commands begin with `python -m robot_composer`.
 `-- README.md
 ```
 
-## Reproducibility Boundary
-
-Inference, MIDI generation, sample analysis, and model smoke testing are self-contained. Full retraining is not self-contained because the original work used the external EMOPIA MIDI corpus, MuseScore repairs, FluidSynth, and a soundfont for audio-derived dominance features. Those third-party assets are intentionally excluded.
-
-
-## Data And Publication Note
-
-The original project used the EMOPIA dataset. This curated repository includes only model-generated MIDI examples, not the source corpus. Before publishing university work, confirm the applicable coursework-sharing rules and choose an appropriate licence for your own code.
 
 ## References
 
